@@ -1,0 +1,331 @@
+/* -----------------------------------------Font SECTION--------------------------------------------- */
+
+
+@font-face {
+    font-family: myFont;
+    src: url("fonts/BRSonoma-Light.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    /* -----------------------------------------NAVBAR SECTION--------------------------------------------- */
+
+    .nav {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        color: #ffffff !important;
+        background-color: #3D763E !important;
+        position: sticky;
+        top: 0px;
+    }
+}
+
+.logo img {
+    width: 130px;
+    margin: 0px 50px;
+    padding-bottom: 6px;
+}
+
+ul li {
+    margin: 0px 16px;
+}
+
+ul li a:hover {
+    color: #FFFFFF;
+    background-color: #51AB46;
+}
+
+ul {
+    margin-left: 100px;
+}
+.icn{
+    margin-right: 227px;
+}
+
+/* -----------------------------------------HOME SECTION--------------------------------------------- */
+
+#HOME {}
+
+.col-6.div-left {
+    margin: 0px 0px;
+    padding: 25px 75px;
+}
+
+.col-6.div-right {
+    padding: 100px 150px;
+}
+
+.back {
+    background-color: #458044;
+    background-image: linear-gradient(from left bottom to right top, #437942, #5BB350) !important;
+    background-size: 100%;
+    /* width: 100vw; */
+    height: 80vh;
+}
+
+.back h3 {
+    color: white;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1.7rem;
+    margin: -18px 42px;
+    padding-top: 47px;
+}
+
+.back h1 {
+    color: #FFFFFF;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3.7rem;
+}
+
+.back p {
+    color: #FFFFFF;
+}
+
+.div-left {
+    padding: 0;
+    margin: 0;
+    width: 49%;
+    /* height: 80vh; */
+    background: url("../images/backgroundPattern.png");
+
+}
+
+.div-left img {
+    width: 310px;
+}
+
+.bttn {
+    color: #2B572A;
+    background-color: #F1CB38;
+    width: 160px;
+    border: 2px solid #F1CB38;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+/* -----------------------------------------ABOUT SECTION--------------------------------------------- */
+
+#about {
+    height: 100vh;
+    width: 100%;
+    background-color: #51AB46;
+    /* padding-top: 6%; */
+    display: flex;
+    align-items: center;
+}
+
+.right-about {
+    width: 10%;
+    /* height: 50%; */
+}
+
+.mid-about{
+    width: 40%;
+    /* height: 50%; */
+    background-color: #F1CB38;
+    border-top-left-radius: 15rem;
+    border-bottom-left-radius: 15rem;
+}
+
+.left-about {
+    width: 50%;
+    /* height: 50%; */
+    background-origin: padding-box;
+    background-color: #F1CB38;
+    display: flex;
+
+}
+
+.mid-about img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    color: #3D763E;
+    padding-top: 35px;
+
+}
+
+.content h1 {
+    font-family: 'Berkshire Swash', cursive;
+
+}
+
+.left-about button {
+    color: #2B572A;
+    background-color: #FFFFFF;
+    width: 160px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+/* -----------------------------------------DELIVERY SECTION--------------------------------------------- */
+
+#delivery {
+    width: 100%;
+    height: 400px;
+    background-color: #3D763E;
+}
+
+.first {
+
+    padding-left: 9rem;
+}
+
+.first img {
+    width: 125px;
+}
+
+.first h1 {
+    /* font-family: myFont; */
+    color: #FFFFFF;
+}
+
+.first p {
+    color: #FFFFFF;
+
+}
+
+/* -----------------------------------------Chef SECTION--------------------------------------------- */
+
+#chef {
+    /* height: 600px; */
+    width: 100%;
+    background-color: #57A94E;
+}
+
+.pattern {
+    background-image: url("../images/PattrenChef.png");
+    height: 250px;
+}
+
+.pattern-2 {
+    background-image: url("../images/PattrenChef2.png");
+    height: 100px;
+}
+
+#chef img {
+    height: 450px;
+}
+
+#chef h1 {
+    color: #FFFFFF;
+}
+
+#chef p {
+    color: #FFFFFF;
+}
+
+.food {
+    height: 500px;
+    width: 100%;
+    background-color: #F39916;
+}
+
+.patrn {
+    height: 500px;
+    width: 100%;
+    background-image: url("../images/PattrenOrange.png");
+}
+
+.food1 img {
+    width: 500px;
+    height: 400px;
+}
+
+.food2{
+    color: #FFFFFF;
+}
+
+.testimonial {
+    height: 300px;
+    width: 100%;
+    background-color: #3C793E;
+}
+
+.div-test {
+    color: #FFFFFF;
+}
+
+/* -----------------------------------------Menu SECTION--------------------------------------------- */
+
+.upper-pattren {
+    height: 58px;
+    width: 100%;
+    background-color: #5AB34F;
+    background-image: url("../images/PattrenOurMenus.png");
+}
+
+.blank{
+    height: 58px;
+    width: 100%;
+    background-color: #5AB34F;
+}
+
+#menu {
+    height: 250px;
+    width: 100%;
+    background-color: #F1CB38;
+}
+.menu{
+    color: #397A3C;
+}
+.lower-pattren{
+    height: 58px;
+    width: 100%;
+    background-color: #489C3F;
+    background-image: url("../images/PattrenOurMenus.png");
+}
+.menus{
+    height: 1000px;
+    width: 100%;
+    background-color: #59AB4F;
+}
+.menu1{
+    color: #FFFFFF;
+}
+.menu1 img{
+    width: 200px;
+}
+
+/* -----------------------------------------Contact SECTION--------------------------------------------- */
+
+.contact{
+    color: #509249;
+}
+.contact h1{
+    font-family: 'Berkshire Swash', cursive;
+}
+.contact input{
+    border: 2px solid #397A3C;
+    border-radius: 2rem;
+    width: 300px;
+    /* font-family: myFont; */
+}
+.contact button{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    color: #FFFFFF;
+    background-color: #397A3C;
+    border-radius: 2rem;
+    width: 300px;
+    /* font-family: myFont; */
+}
+
+/* -----------------------------------------Footer SECTION--------------------------------------------- */
+
+.footer{
+    color: #FFFFFF;
+    background-color: #397A3C;
+}
+.footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
